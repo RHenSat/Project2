@@ -7,7 +7,7 @@
 
 ## Project Description
 
-The aim of this project is to create a History Trivia application in React. It will include a Home/landing page, an About page and a Contact page.
+The aim of this project is to create a History Trivia application in React. It will include a Home/landing page, an About page and a Contact page. 
 
 ## API
 
@@ -85,6 +85,6 @@ Use this section to include a brief code snippet of functionality that you are p
 
 ```
 function reverse(string) {
-	// here is the code to reverse a string of text
+	
 }
 ```
