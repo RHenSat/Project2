@@ -7,15 +7,26 @@
 
 ## Project Description
 
-The aim of this project is to replicate the landing page of the Flutrack application. 
+The aim of this project is to create a History Trivia application in React. It will include a Home/landing page, an About page and a Contact page.
 
 ## API
 
-
-
-
 ```
-{data: {} }
+{data: {
+"response_code": 0,
+"results": [
+{
+"category": "History",
+"type": "multiple",
+"difficulty": "medium",
+"question": "Which of the following is NOT classified as a Semetic language?",
+"correct_answer": "Sumerian",
+"incorrect_answers": [
+"Maltese",
+"Akkadian",
+"Mandaic"
+]
+}, }
 ```
 
 
@@ -31,12 +42,14 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - Find and use external api
 - Make App Responsive
 - Render data on page 
+- Add EventListeners for questions
 - Allow user to interact with the page
 
 #### PostMVP
 
 - Add CSS
 - Make Maps interactive
+- Add animation 
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -59,7 +72,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | H | 5hrs| -hrs | -hrs |
 | Working with API | H | 5hrs| -hrs | -hrs |
 |Make App Responsive| H | 10 hrs|- hrs| -hrs|
-| Total | H | 25hrs| hrs | hrs |
+|Add Eventlisteners| H | 5 hrs | -hrs | -hrs|
+|Add CSS | M | 10hrs | -hrs | -hrs |
+| Total | H | 40hrs| hrs | hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
