@@ -1,6 +1,15 @@
 import React from 'react'
 
-<div>
-    <App/>
-    
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+export default Home
